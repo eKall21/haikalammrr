@@ -1,0 +1,201 @@
+
+body{
+    background-color: #901b1b;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/rock-music-poster-with-phrase-i-need-my-dose-music-everyday_1284-49228.jpg?w=740&t=st=1703001828~exp=1703002428~hmac=3c79746222bc770d8de8b32fe3b15d1ec43243a34abc362ffeef177eb5793540);
+}
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 2px;
+
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: auto;
+  margin-right: 10px;
+  padding-bottom: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(15, 156, 238);
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+
+}
+
+.hero {
+  height: 300px;
+  background-image: url(https://cdns.klimg.com/resized/1200x600/p/headline/avenged-sevenfold-posting-keseruan-tur--ce5727.jpg);
+  background-size: cover;
+  border-top: 5px solid lightskyblue;
+  border-bottom: 5px solid salmon;
+}
+
+#greeting {
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    height: 15xpx;
+    font-size: 20px;
+}
+#date {
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+    height: 50px;
+    font-size: 20px;
+  }
+  
+#clock {
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#content{
+    width: 950px;
+    height: auto;
+    background-color: #fff ;
+    padding: 5px 15px 5px 15px ;
+}
+#content h2{
+    color: black;
+}
+#content p{
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+    color: #333;
+
+}
+#content img{
+    float: left;
+    margin-right: 40;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}    
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+
+   }
+   
+   form {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   input[type="text"],
+   input[type="email"],
+   input[type="tel"],
+   textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+   }
+   
+   textarea {
+    resize: vertical;
+   }
+   
+   input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+   }
+   
+   input[type="submit"]:hover {
+    background-color:Â #45a049;
+   }
+
+.gallery-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(210, 68, 68);
+    color: #000000;
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+#footer{
+    width: 800px;
+    height: 70px;
+    background-color: #333;
+    padding-top: 30px;
+}
+#footer p{
+    color: #fff;
+    text-align: center;
+  
+}
